@@ -31,5 +31,170 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: 'Lora', serif;
+	color: #242424;
+	font-size: 18px;
+	line-height: 1.5;
 }
 
+.logo {
+	width: 170px;
+}
+
+header {
+	padding: 30px 0 30px 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header .obsah {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #242424;
+	padding: 10px 15px;
+	border-radius: 20px;
+}
+
+.menu a:hover {
+	background-color: #f195b2;
+}
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	padding: 80px 0 80px 0;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 52px;
+	color: white;
+	margin: 0;
+}
+
+.hero p{
+	color: white;
+	font-style: italic;
+	font-size: 24px;
+}
+
+.hero p {
+	max-width: 60%;
+	margin: 0;
+	padding-top: 20px;
+}
+
+.hero .obsah {
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nabidka {
+	background-color: #f0f0f0;
+}
+
+section {
+	padding: 80px 0 80px 0;
+	margin: 0 auto 0 auto;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color: #3e606b;
+}
+
+img {
+	border-radius: 5px;
+}
+
+.uvitani .obsah,
+.pristup .obsah
+ {
+	max-width: 1100px;
+	margin: 0 auto 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+.uvitani .popisek {
+	padding-right: 30px;
+}
+
+.uvitani a {
+	text-decoration: none;
+	color: white;
+	background-color: #f195b2;
+	border-radius: 30px;
+	padding: 15px 40px;
+	display: inline-block;
+}
+
+.uvitani a:hover{
+	background-color: #d2567d;
+}
+
+.pristup .popisek {
+	padding-left: 30px;
+}
+
+.nabidka .popisek {
+	max-width: 1100px;
+	margin: 0 auto 0 auto;
+}
+
+
+.produkty {
+	display: flex;
+	max-width: 1100px;
+	margin: 0 auto 0 auto;
+}
+
+.produkty img {
+	border-radius: 5px 5px 0 0;
+	max-width: 100%;
+}
+
+.produkt1,
+.produkt2,
+.produkt3,
+.produkt4 {
+	box-shadow: 2px 2px 10px 2px rgb(180, 180, 180);
+	margin-right: 30px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	flex: 0 1 25%;
+}
+
+footer {
+	background-color: #303339;
+	padding: 30px 0 30px 0;
+	text-align: center;
+	color: white;
+}
+
+footer p {
+	padding: 0;
+	margin: 0;
+}
