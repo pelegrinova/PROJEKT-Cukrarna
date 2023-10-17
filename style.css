@@ -28,7 +28,6 @@ html { box-sizing: border-box; }
 	#303339		tmavé pozadí patičky
 */
 
-
 body {
 	margin: 0;
 	font-family: 'Lora', serif;
@@ -161,7 +160,6 @@ img {
 	max-width: 1100px;
 	margin: 0 auto 0 auto;
 }
-
 
 .produkty {
 	display: flex;
